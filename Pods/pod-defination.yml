@@ -1,0 +1,14 @@
+apiVersion: v1
+
+kind: Pod
+metadata:
+  name: my-app-pod
+  labels:
+    app: myapp
+    cost: India
+    type: sexy
+
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
